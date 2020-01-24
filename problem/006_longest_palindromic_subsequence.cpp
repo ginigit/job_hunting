@@ -1,6 +1,6 @@
 
 /*
- * 004.最长回文子序列
+ * 006.最长回文子序列
  * 问题描述: https://leetcode.com/problems/longest-palindromic-subsequence
  * 提示:
  * i从左到右, j从右到左, 则lps问题可以转化成lcs问题
