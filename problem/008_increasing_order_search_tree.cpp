@@ -3,7 +3,8 @@
  * 008.递增序列二叉查找树
  * 问题描述: https://leetcode.com/problems/increasing-order-search-tree
  * 提示: 本题属于二叉树中序遍历的衍生问题
- * 访问左子获取prev -> 连接prev.right和node -> prev=node & node.left=null -> 访问右子
+ * 任意节点满足: 左子 < node < 右子，所以改造成递增序列满足: 左子 -> node -> 右子
+ * 操作步骤: 访问左子获取prev -> 连接prev.right和node -> prev=node & node.left=null -> 访问右子
  * 时间复杂度: time_complexity = O(n)
  * 空间复杂度: space_complexity = O(1)
  */
